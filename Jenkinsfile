@@ -11,7 +11,7 @@ def kops = [:]
          kops.password = 'Rnstech@123'
          kops.allowAnyHosts = true
 pipeline {
-    agent { label 'buildserver'}
+    agent any
 
     
     stages {
