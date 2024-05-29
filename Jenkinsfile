@@ -32,7 +32,6 @@ pipeline {
              -Dsonar.login=squ_2414e61c504101657677f56fd19799ba702dcb78"""
       }
 	}
-	        stages{
         stage('build'){
             steps
             {
@@ -42,6 +41,6 @@ pipeline {
         }
 
 	    
-		}
+		
     }
 }
