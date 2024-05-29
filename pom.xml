@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -121,22 +122,11 @@
       <plugin>
         <!-- JUnit code coverage. -->
         <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>2.6</version>
-      </plugin>
-    </plugins>
- 
-  </reporting>
-</build>
-<reporting>
-          <plugins>
-                    <plugin>
-    <groupId>org.codehaus.mojo</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.0.2</version>
-</plugin>
-</plugins>
-</reporting>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <distributionManagement>
     <snapshotRepository>
