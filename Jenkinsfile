@@ -26,7 +26,7 @@ pipeline {
             
 	stage('SonarQube Scan') {
       steps {
-        bat """C:/Build/apache-maven-3.9.8/bin/mvn X sonar:sonar\
+        bat """C:/Build/apache-maven-3.9.8/bin/mvn -X sonar:sonar\
              -Dsonar.projectKey=javaHelloApp \
               -Dsonar.host.url=http:localhost:9000\
              -Dsonar.login=sqa_1fab6df7f1a4c6069f537d97f42f9e24aefc99dc"""
